@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject Sphere;
-    private float timeAfter;
+    private float timeAfter = 0;
 
     void Update()
     {
